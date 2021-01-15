@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'curso-jdev-angular';
+
+  usuario = {login: '', senha: ''};
+
+  public login(){
+    console.log("Teste login : " + this.usuario.login + " Senha " + this.usuario.senha)
+  }
 }
